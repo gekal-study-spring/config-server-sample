@@ -1,1 +1,16 @@
+spring:
+  config:
+    import: configserver:http://localhost:8888
 
+  cloud:
+    config:
+      username: client
+      password: password
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: "*"
+    web:
+      exposure:
+        include: info,health,refresh

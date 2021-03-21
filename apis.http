@@ -1,2 +1,9 @@
+### サンプルコンフィグクライアント
+GET http://localhost:8080/ HTTP/1.1
+
+### コンフィグリフレッシュ
+POST http://localhost:8080/actuator/refresh HTTP/1.1
+
 ### デフォルトアプリケーションコンフィグ
 GET http://localhost:8888/application/default HTTP/1.1
+Authorization: Basic client password
