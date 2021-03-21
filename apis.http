@@ -1,0 +1,2 @@
+### デフォルトアプリケーションコンフィグ
+GET http://localhost:8888/application/default HTTP/1.1
