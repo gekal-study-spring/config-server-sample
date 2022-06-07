@@ -1,0 +1,3 @@
+test:
+  key: config from config server(git)@first-client
+  key-first-client: first client value

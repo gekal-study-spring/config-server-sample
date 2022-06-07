@@ -1,10 +1,10 @@
-package cn.gekal.sample.configserver;
+package cn.gekal.sample.configclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigServerApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

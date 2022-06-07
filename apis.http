@@ -4,6 +4,18 @@ GET http://localhost:8080/ HTTP/1.1
 ### コンフィグリフレッシュ
 POST http://localhost:8080/actuator/refresh HTTP/1.1
 
-### デフォルトアプリケーションコンフィグ
+### デフォルトアプリケーションコンフィグ(デフォルト)
 GET http://localhost:8888/application/default HTTP/1.1
+Authorization: Basic client password
+
+### 特定アプリケーションコンフィグ
+GET http://localhost:8888/config-client/default HTTP/1.1
+Authorization: Basic client password
+
+### 特定デフォルトアプリケーションコンフィグ
+GET http://localhost:8888/config/client HTTP/1.1
+Authorization: Basic client password
+
+### 特定デフォルトアプリケーションコンフィグ（Label指定）
+GET http://localhost:8888/config-client/default/master HTTP/1.1
 Authorization: Basic client password

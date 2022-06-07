@@ -1,4 +1,4 @@
-package cn.gekal.sample.configclient;
+package cn.gekal.sample.configclient.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

@@ -1,5 +1,6 @@
-package cn.gekal.sample.configclient;
+package cn.gekal.sample.configclient.controller;
 
+import cn.gekal.sample.configclient.property.ConfigClientProperties;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

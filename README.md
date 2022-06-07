@@ -16,6 +16,17 @@
 2. profile
 3. label
 
+## 設定変更
+
+### アプリケーションプロパティの読み込み
+
+```bash
+# アプリケーション名の変更
+java -jar config-client-0.0.1-SNAPSHOT.jar --spring.application.name=first-client
+# プロファイル名の変更
+java -jar config-client-0.0.1-SNAPSHOT.jar --spring.profiles.active=profile
+```
+
 ## 参照
 
 1. [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html/)
